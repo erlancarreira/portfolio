@@ -1,0 +1,12 @@
+{
+    "name": "core",
+    "version": "1.0.0",
+    "main": "src/index.ts",
+    "keywords": [],
+    "author": "Erlan Carreira",
+    "license": "ISC",
+    "scripts": {
+        "dev": "npx concurrently \"cd backend && npm run start:dev\" \"cd frontend && npm run dev\""
+    },
+    "description": ""
+}
